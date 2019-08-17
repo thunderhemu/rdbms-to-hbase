@@ -1,0 +1,7 @@
+source_table_name :  ACCOUNT_SOURCE
+source_user : user
+source_password : pass
+source_jdbc_url : jdbc:h2:mem:test
+hbase_table_name : testhbase
+jdbc_query : select * from ACCOUNT_SOURCE
+cast_query : select * from temp_table

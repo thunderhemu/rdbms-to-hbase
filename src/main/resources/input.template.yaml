@@ -1,0 +1,9 @@
+source_table_name :  <some-table>
+source_driver : <some-driver>
+source_user : <some-user-name>
+source_password : <some-password>
+source_columns : <some-columns>
+source_jdbc_url : <some-jdbc>
+hbase_table_name : table name
+jdbc_query : <sql query to query jdbc source>
+cast_query : <query to cast columns before ingesting to hbase table>
